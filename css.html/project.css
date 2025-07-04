@@ -85,24 +85,54 @@ header{
      color:white;
 }
 .user .tooltiptext2{
-    width: 300px;
-    height: 300px;
+    width: 380px;
+    height: 250px;
      visibility:hidden;
      background-color: black;
      color: white;
-     text-align: center;
   border-radius: 6px;
   position: absolute;
   top: 150%;
   left: 50%;
-  transform: translateX(-115%);
+  transform: translateX(-105%);
   font-size: 20px;
-  padding: 50px;
+  padding: 10px;
+ 
 }
+.tooltiptext2 h3{
+  position: relative;
+  float: left;
+  left: 60px;
+}
+.tooltiptext2 p{
+ float:left;
+ margin-top: 40px;
+}
+.tooltiptext2 button{
+   position: relative;
+    left: 60px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.paralogin{
+  position: relative;
+    bottom: 35px;
+    left: 60px;
+   
+}
+
 .user:hover .tooltiptext2{
     visibility: visible;
     opacity: 1;
     
+}
+.fabbutton{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .main{
