@@ -56,7 +56,6 @@ header{
 }
 .search:hover .tooltiptext {
   visibility: visible;
-  background-color: aqua;
    margin-right: 100px;
 }
 .cart{
