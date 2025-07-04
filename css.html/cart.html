@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="project.css">
+</head>
+<style>
+    #scrollbar1{
+        width: 70%;
+        height: 500px;
+        overflow: auto;
+        margin-top: 100px;
+        padding: 70px;
+        background-color: transparent;
+        
+        
+    }
+    .scrollimg1{
+        display: flex; 
+         gap: 100px;
+        
+    }
+    .scrollimg1 img{
+        width: 20%;
+    }
+    .total{
+      display: flex;
+      
+    }
+    .cartorder{
+      
+      width: 450px;
+      color: white;
+      padding: 5px;
+      border-radius: 5%;
+       margin-top: 100px;
+
+    }
+    .cartorder h3{
+      display: flex;
+      
+      margin-left: 50px;
+      margin-bottom: 50px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .cartorder p{
+         margin-bottom: 30px;
+    }
+    .discount{
+      margin-left: 90px;
+      color: green;
+    }
+    .free{
+      margin-left: 100px;
+       color: green;
+    }
+   .total-line{
+    display: flex;
+   gap: 150px;
+   font-size: 25px;
+   }
+   .checkout-btn{
+    background-color: red;
+    width: 350px;
+    padding: 10px;
+    color: white;
+   }
+   i{
+    margin-left: 100%;
+    position: relative;
+    bottom: 140px;
+   }
+
+    
+</style>
+<body>
+    <header>
+    <h1>Tech-shop</h1>
+    <nav class="icons">
+
+  <div class="search">
+  <i class="fas fa-search"></i>
+  <span class="tooltiptext">Search</span>
+</div>
+    <div class="cart">
+   <a href=""> <i class="fas fa-shopping-cart"></i></a>
+    <span class="tooltiptext1">shopping</span>
+    </div>
+    <div class="user">
+    <i class="fas fa-user"></i></a>
+    <span class="tooltiptext2">
+      <h3>hello</h3>
+      <p>Acess acount and manage orders</p><br>
+      <a href="#loginPopup"><button>Login / Signup</button></a>
+
+        <br>
+        <hr>
+      <h2>please login</h2>
+    </span>
+  </div>
+    </nav>
+  </header>
+  <div class="total">
+  <div>
+  <div id="scrollbar1">
+     <div class="scrollimg1">
+  <img src="jbl660nc-1.png" alt="">
+  <div class="scrollp">
+    <h2>JBL live 660NC Wireless Over-Ear Nc <br>Headphones</h2>
+    <p style="font-size: 30px;">₹9,000 <del style="font-size: 20px;">₹14,999</del></p>
+  </div> 
+</div><i class="fa-solid fa-trash"></i>
+<br><br><br><hr>
+    
+    <div class="scrollimg1" style="margin-top: 50px;">
+  <img src="boat518-1.png" alt="">
+  <div class="scrollp">
+    <h2>boAt Rockerz 518 on-Ear wireless <br>Headphones</h2>
+    <p style="font-size: 30px;">₹1,299 <del style="font-size: 20px;">3,990</del></p>
+  </div> 
+  
+</div> 
+<i class="fa-solid fa-trash"></i>
+<br><br><br><hr>
+ <div class="scrollimg1" style="margin-top: 50px;">
+  <img src="boat131-1 (1).png" alt="">
+  <div class="scrollp">
+
+   <h2>boAt Airdopes 131 Wireless In-Ear  <br>Earbuds</h2>
+    <p  style="font-size: 30px;">₹1,099 <del style="font-size: 20px;">₹2,990 </del></p>
+  </div>
+  
+</div>
+<i class="fa-solid fa-trash"></i>
+<br><br><br><hr>
+ <div class="scrollimg1"style="margin-top: 50px;" >
+  <img src="boat110-1 (1).png" alt="">
+  <div class="scrollp">
+    <h2>boAt BassHeads 110c In-Ear Wired <br>Earphones</h2>
+    <p  style="font-size: 30px;">₹9,000 <del style="font-size: 20px;">₹14,999</del></p>
+    
+
+  </div>
+
+</div>
+<i class="fa-solid fa-trash"></i>
+</div>
+</div>
+<div>
+<div class="cartorder">
+  <h3>Order Summary ( 4 items )</h3>
+
+  <p>
+    <span>Original Price</span>
+    <span class="price">₹22,978</span>
+  </p>
+
+  <p>
+    <span>Discount</span>
+    <span class="discount">- ₹10,132</span>
+  </p>
+
+  <p>
+    <span>Delivery</span>
+    <span class="free">Free</span>
+  </p>
+
+  <hr>
+
+  <p class="total-line">
+    <strong>Total Price</strong>
+    <strong>₹12,846</strong>
+  </p>
+
+  <button class="checkout-btn">Checkout</button>
+</div>
+</div>
+</div>
+<br><br>
+<footer>
+<div id="footer">
+  <section>
+    <div class="footer">
+      <h2>Tech Shop</h2>
+      <p>Subscribe to our Email alerts to receive <br> early discount offers, and new products <br> info.</p>
+      <label for="email"></label>
+     <input type="email" id="email" placeholder="Email Address*" style="height: 35px; width: 220px; background-color: transparent; border: 1px solid gray; color: white; ">
+     <br><button style="width: 150px; height: 35px; color: white; background-color: red; border-radius: 5%; margin-top: 15px;">Subscribe</button>
+    </div>
+  </section>
+  <section>
+    <div>
+      <h2 style="margin-left: 40px; margin-bottom: 50px;">Help</h2>
+      <ol class="footerli">
+        <li>FAQs</li>
+        <li>Track Order</li>
+        <li>Cancel Order</li>
+        <li>Return Order</li>
+        <li>Warranty Info</li>
+      </ol>
+    </div>
+  </section>
+  <section>
+    <div>
+      <h2 style="margin-left: 40px; margin-bottom: 50px;">Policies</h2>
+      <ol class="footerli">
+        <li>Return Policy</li>
+        <li>Security</li>
+        <li>Sitemap</li>
+        <li>Privacy Policy</li>
+        <li>Terms & Conditions</li>
+      </ol>
+    </div>
+  </section>
+  <section>
+    <div>
+      <h2 style="margin-left: 40px; margin-bottom: 50px;">Company</h2>
+      <ol class="footerli">
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>Service Centres</li>
+        <li>Careers</li>
+        <li>Affiliaters</li>
+      </ol>
+    </div>
+  </section>
+  </div>
+  <hr>
+  <div class="footerbottom">
+  <section>
+  <p style="margin-left: 10px;">2024 | All Rights Reserved. Built by | ADARSHA HELVAR</p>
+  </section>
+   <section>
+    <div class="footerlink">
+ <i class="fab fa-facebook-f"></i>
+  <i class="fab fa-twitter"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-linkedin-in"></i>
+ </div>
+
+  </section>
+  </div>
+</footer>
+
+
+</body>
+</html>
